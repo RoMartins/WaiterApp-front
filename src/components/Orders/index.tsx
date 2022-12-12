@@ -7,7 +7,33 @@ const orders:Order[] = [
   {
     '_id': '638571a9529176a9b8c9db2b',
     'table': '123',
-    'status': 'IN_PRODUCTION',
+    'status': 'WAITING',
+    'products': [
+      {
+        'product': {
+          'name': 'Coca coca',
+          'imagePath': '1669688201177-coca-cola.png',
+          'price': 7,
+        },
+        'quantity': 2,
+        '_id': '638571a9529176a9b8c9db2c'
+      },
+      {
+        'product': {
+          'name': 'Coca coca',
+          'imagePath': '1669688201177-coca-cola.png',
+          'price': 7,
+        },
+        'quantity': 2,
+        '_id': '638571a9529176a9b8c9db2c'
+      },
+    ],
+  },
+
+  {
+    '_id': '638571a9529176a9b8c9db2b',
+    'table': '123',
+    'status': 'WAITING',
     'products': [
       {
         'product': {
@@ -19,7 +45,7 @@ const orders:Order[] = [
         '_id': '638571a9529176a9b8c9db2c'
       },
     ],
-  }
+  },
 ]
 ;
 
